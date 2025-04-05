@@ -1,10 +1,10 @@
 {
     "IsEncrypted": false,
   "Values": {
-    //"AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsStorage-local-only": "UseDevelopmentStorage=true",
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azurelearnstg;AccountKey=[mykey];EndpointSuffix=core.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
     "AzureSqlDatabase": "Server=tcp:azurelearnsql.database.windows.net,1433;Initial Catalog=azureLearnsqldb;Persist Security Info=False;User ID=admin-sql;Password=[DUMMY_PASSWORD];MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-    //"AzureSqlDatabase": "Server=localhost;Initial Catalog=AzureLearn;User ID=admin-sql;Password=[DUMMY_PASSWORD];Trusted_Connection=True;MultipleActiveResultSets=False;"
+    "AzureSqlDatabase-local-only": "Server=localhost;Initial Catalog=AzureLearn;User ID=admin-sql;Password=[DUMMY_PASSWORD];Trusted_Connection=True;MultipleActiveResultSets=False;"
   }
 }
